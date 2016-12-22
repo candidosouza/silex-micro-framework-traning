@@ -1,0 +1,24 @@
+{
+    "name": "candidosouza/app_silex_001",
+    "description": "estudo",
+    "authors": [
+        {
+            "name": "Candido Souza",
+            "email": "candido_souzza@hotmail.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "~2.0"
+    },
+    "require-dev": {
+        "texthtml/whoops-silex": "^1.0"
+    },
+    "config":{
+        "bin-dir":"bin/"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Application\\" : "src/Application/"
+        }
+    }
+}
